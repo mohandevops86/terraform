@@ -1,0 +1,111 @@
+  901  wget https://releases.hashicorp.com/terraform/0.11.4/terraform_0.11.4_linux_amd64.zip?_ga=2.50462889.1605516822.1521424417-1411611666.1516788691
+  902  unzip terraform_0.11.4_linux_amd64.zip\?_ga\=2.50462889.1605516822.1521424417-1411611666.1516788691 
+  903  mv terraform_0.11.4_linux_amd64.zip\?_ga\=2.50462889.1605516822.1521424417-1411611666.1516788691 /tmp
+  904  cd /tmp/
+  905  ls
+  906  unzip terraform_0.11.4_linux_amd64.zip\?_ga\=2.50462889.1605516822.1521424417-1411611666.1516788691 
+  907  ls
+  908  ./terraform 
+  909  ls
+  910  sudo mv terraform /bin
+  911  cd 
+  912  terraform
+  913  cd terraform/
+  914  ls
+  915  cd 01-example/
+  916  terraform 
+  917  terraform apply 
+  918  terraform init 
+  919  ls -a
+  920  cd .terraform/
+  921  ls
+  922  cd plugins/
+  923  ls
+  924  cd linux_amd64/
+  925  ls
+  926  ./terraform-provider-aws_v1.11.0_x4
+  927  cd ..
+  928  terraform apply
+  929  terraform destroy 
+  930  cd ..
+  931  export export AWS_ACCESS_KEY_ID="AKIAITD3IFDTSBISBZCA"
+  932  export AWS_ACCESS_KEY_ID="AKIAITD3IFDTSBISBZCA"
+  933  export AWS_SECRET_ACCESS_KEY="kAqLxtm1WOYNnyFOf5sMtirhZ0JoXHUl/Pm7Q90Z"
+  934  cd 01-example/
+  935  terraform apply
+  936  cd ..
+  937  ls
+  938  mkdir 02-create-vpc
+  939  cd 02-create-vpc/
+  940  cat ../01-example/sample.tf 
+  941  terraform init
+  942  terraform  plan
+  943  terraform  apply
+  944  cd ..
+  945  ls
+  946  cd 01-example/
+  947  terraform destroy 
+  948  cd ..
+  949  cd 02-create-vpc/
+  950  terraform apply
+  951  terraform plan
+  952  terraform apply
+  953  ls
+  954  cat terraform.tfstate
+  955  ls -l
+  956  terraform apply --help
+  957  terraform --help 
+  958  terraform apply --terragrunt-non-interactive
+  959  terraform plan -out tfplan
+  960  ls
+  961  terraform apply tfplan
+  962  vim tfplan 
+  963  terraform plan -out tfplan 
+  964  terraform plan -out tfplan && terraform apply tfplan
+  965  terraform plan -out tfplan 
+  966  terraform plan -out tfplan && terraform apply tfplan
+  967  terraform destroy 
+  968  cd ..
+  969  ls
+  970  env
+  971  ls
+  972  cd 03-data-source/
+  973  ls
+  974  terraform plan
+  975  terraform apply
+  976  terraform destroy --help
+  977  terraform destroy -force
+  978  ls
+  979  terraform plan
+  980  TF_VAR_owner=099720109477 terraform plan
+  981  terraform plan -var-file=variables.tfvars 
+  982  cd terraform/
+  983  ls
+  984  cp 02-create-vpc 03-data-source
+  985  cp 02-create-vpc 03-data-source -r
+  986  cd 03-data-source/
+  987  ls
+  988  rm -f resources.tf terraform.tfstate terraform.tfstate.backup  tfplan
+  989  ls
+  990  terraform init\
+  991  terraform plan -out tfplan && terraform apply tfplan
+  992  terraform apply
+  993  ls
+  994  cat provider.tf 
+  995  terraform apply
+  996  ls -a
+  997  rm -rf .terraform/
+  998  terraform init
+  999  terraform  plan
+ 1000  env
+ 1001  ls
+ 1002  cd terraform/
+ 1003  ls
+ 1004  git clone git@github.com:cit-latex/terraform.git
+ 1005  ls
+ 1006  ls -a
+ 1007  rm -rf terraform
+ 1008  Git 
+ 1009  ls
+ 1010  history 
+
